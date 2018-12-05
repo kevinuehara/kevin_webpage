@@ -3,3 +3,8 @@
 body{
     font-family: 'Titillium Web', sans-serif;
 }
+
+.simple-text{
+    color:#333333;
+    font-size: 20px;
+}

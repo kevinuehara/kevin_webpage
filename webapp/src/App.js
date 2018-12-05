@@ -4,6 +4,23 @@ import Home from './containers/Home';
 import Navbar from './ui/Navbar';
 
 class App extends Component {
+
+  componentDidMount() {
+    var div = document.getElementById("navbar");
+
+    window.onscroll = function() {
+      if(window.pageYOffset > 212) {
+        div.style.backgroundColor="#282828";
+      } else {
+        div.style.backgroundColor="transparent";
+      }
+    };
+  }
+
+  componentWillUnmount() {
+    window.onscroll = null;
+  }
+
   render() {
     return (
       <div>

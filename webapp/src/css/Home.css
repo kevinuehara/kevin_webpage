@@ -1,5 +1,5 @@
 .background-overlay {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -30,5 +30,41 @@
 .icon-background:hover{
     color:#868686;
     cursor: pointer;
+    transition: color 0.5s ease 0s;
 }
 
+.presentation{
+    margin-top: 8%;
+    margin-left:3%;
+}
+
+.photo_author{
+    width:75%;
+    margin-top:7%;
+}
+
+.parallax-overlay{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text-name-parallax{
+    padding-top: 3%;
+    color:#fff;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-description-parallax{
+    padding-top: 3vh;
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.parallaxImage{
+    margin-top:5%;
+}
