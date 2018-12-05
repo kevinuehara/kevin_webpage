@@ -8,7 +8,7 @@ class App extends Component {
   componentDidMount() {
     var div = document.getElementById("navbar");
 
-    window.onscroll = function() {
+    window.onscroll = () => {
       if(window.pageYOffset > 212) {
         div.style.backgroundColor="#282828";
       } else {

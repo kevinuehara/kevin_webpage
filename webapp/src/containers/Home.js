@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import animateScrollTo from 'animated-scroll-to';
+
 import '../css/Home.css';
+
 import Background from '../images/background1.jpg';
 import Author from '../images/kevin.jpeg';
 import ParallaxImage from '../images/parallax1.jpg';
@@ -11,6 +14,12 @@ class Home extends Component {
         // this.state = {
 
         // };
+    }
+
+    handleInitialScrollToAboutMe(){
+        const options = {speed: 900};
+
+        animateScrollTo(document.querySelector('.aboutMe'), options);
     }
 
     render() {
@@ -41,12 +50,12 @@ class Home extends Component {
                         <h1 className="text-name-background">Kevin Uehara</h1>
                         <p className="text-description-background">Desenvolvedor, criador e apaixonado pela inovação</p>
                         <center>
-                            <i className="fa fa-caret-square-o-down icon-background"></i>
+                            <i className="fa fa-caret-square-o-down icon-background" onClick={() => this.handleInitialScrollToAboutMe()}></i>
                         </center>
                     </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 aboutMe">
                     <div className="container-fluid">
                         <div className="presentation">
                               <h3>Sobre mim</h3>
