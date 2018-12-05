@@ -9,7 +9,7 @@ class App extends Component {
     var div = document.getElementById("navbar");
 
     window.onscroll = () => {
-      if(window.pageYOffset > 212) {
+      if(window.pageYOffset > 190) {
         div.style.backgroundColor="#282828";
       } else {
         div.style.backgroundColor="transparent";
