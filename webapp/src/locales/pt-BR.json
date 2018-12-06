@@ -1,0 +1,10 @@
+{
+    "navbar": {
+        "projects": "Projetos",
+        "aboutme": "Sobre mim",
+        "contact": "Contato"
+    },
+    "initScreen": {
+        "title": "Desenvolvedor, criador e apaixonado pela inovação"
+    }
+}

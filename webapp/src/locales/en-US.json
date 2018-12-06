@@ -1,0 +1,10 @@
+{
+    "navbar": {
+        "projects": "Projects",
+        "aboutme": "About me",
+        "contact": "Contact"
+    },
+    "initScreen": {
+        "title": "Developer, creator and passionate about innovation"
+    }
+}

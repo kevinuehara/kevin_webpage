@@ -50,7 +50,7 @@ class Home extends Component {
                 <div style={background} className="backgroundImage">
                     <div className="background-overlay">
                         <h1 className="text-name-background">Kevin Uehara</h1>
-                        <p className="text-description-background">Desenvolvedor, criador e apaixonado pela inovação</p>
+                        <p className="text-description-background">{this.props.intlz.get('initScreen.title')}</p>
                         <center>
                             <i className="fa fa-caret-square-o-down icon-background" onClick={() => this.handleInitialScrollToAboutMe()}></i>
                         </center>
