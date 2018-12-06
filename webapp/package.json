@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.7.0",
     "animated-scroll-to": "^1.2.2",
     "react": "^16.6.3",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },

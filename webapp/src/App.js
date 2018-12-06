@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import animateScrollTo from 'animated-scroll-to';
+
 import './App.css';
 import Home from './containers/Home';
+import Footer from './ui/Footer';
 import Navbar from './ui/Navbar';
 
 class App extends Component {
@@ -9,10 +12,10 @@ class App extends Component {
     var div = document.getElementById("navbar");
 
     window.onscroll = () => {
-      if(window.pageYOffset > 190) {
-        div.style.backgroundColor="#282828";
+      if (window.pageYOffset > 190) {
+        div.style.backgroundColor = "#282828";
       } else {
-        div.style.backgroundColor="transparent";
+        div.style.backgroundColor = "transparent";
       }
     };
   }
@@ -21,11 +24,17 @@ class App extends Component {
     window.onscroll = null;
   }
 
+  handleInitialScrollToAboutMe = () => {
+    const options = { speed: 900 };
+    animateScrollTo(document.querySelector('.aboutMe'), options);
+  };
+
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar onClickAboutMe={this.handleInitialScrollToAboutMe} />
         <Home />
+        <Footer />
       </div>
     );
   }

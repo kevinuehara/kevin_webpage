@@ -46,7 +46,7 @@
 .parallax-overlay{
     width: 100%;
     height: 40vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .text-name-parallax{
@@ -67,4 +67,13 @@
 
 .parallaxImage{
     margin-top:5%;
+}
+
+.icon-knowledge{
+    font-size: 35px;
+    margin-top:10px;
+}
+
+.separate-divs {
+    margin-top: 5%;
 }
