@@ -1,0 +1,33 @@
+.content-footer{
+    height:200px;
+    background-color: #222222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.author-footer{
+    font-size: 18px;
+    margin-top:150px;
+}
+
+.icons{
+    font-size: 35px;
+}
+
+.link-icon{
+    text-decoration: none;
+    color:#fff;
+    transition: color 0.7s ease 0s;
+}
+
+.link-icon:hover{
+    color:#848484;
+}
+
+.icon-social-media{
+    margin-left: 15px;
+}
+
+.move-footer{
+    padding-top: 50px;
+}

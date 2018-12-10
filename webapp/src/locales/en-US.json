@@ -2,7 +2,9 @@
     "navbar": {
         "projects": "Projects",
         "aboutme": "About me",
-        "contact": "Contact"
+        "contact": "Contact",
+        "home": "Home",
+        "lang": "Language"
     },
     "initScreen": {
         "title": "Developer, creator and passionate about innovation"

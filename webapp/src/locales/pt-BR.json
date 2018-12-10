@@ -2,7 +2,9 @@
     "navbar": {
         "projects": "Projetos",
         "aboutme": "Sobre mim",
-        "contact": "Contato"
+        "contact": "Contato",
+        "home": "Início",
+        "lang": "Linguagem"
     },
     "initScreen": {
         "title": "Desenvolvedor, criador e apaixonado pela inovação"

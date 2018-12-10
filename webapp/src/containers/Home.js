@@ -47,7 +47,7 @@ class Home extends Component {
         return (
 
             <div>
-                <div style={background} className="backgroundImage">
+                <div style={background} className="backgroundImage home">
                     <div className="background-overlay">
                         <h1 className="text-name-background">Kevin Uehara</h1>
                         <p className="text-description-background">{this.props.intlz.get('initScreen.title')}</p>
