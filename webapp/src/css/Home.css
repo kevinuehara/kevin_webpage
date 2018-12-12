@@ -36,6 +36,7 @@
 .presentation{
     margin-top: 8%;
     margin-left:3%;
+    margin-bottom:5%;
 }
 
 .photo_author{
@@ -46,7 +47,7 @@
 .parallax-overlay{
     width: 100%;
     height: 40vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .text-name-parallax{
@@ -76,4 +77,12 @@
 
 .separate-divs {
     margin-top: 5%;
+}
+
+.title{
+    margin-bottom: 3%;
+}
+
+.spacing-box{
+    margin-bottom: 5%;
 }
