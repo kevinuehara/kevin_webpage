@@ -86,3 +86,20 @@
 .spacing-box{
     margin-bottom: 5%;
 }
+
+.rednear-img {
+    transition: width 0.7s ease 0s;
+}
+
+.rednear-img:hover{
+    width:220px;
+}
+
+.github-icon{
+    font-size: 200px;
+    transition: font-size 0.7s ease 0s;
+}
+
+.github-icon:hover{
+    font-size: 220px;
+}

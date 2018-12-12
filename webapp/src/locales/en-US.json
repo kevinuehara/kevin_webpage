@@ -8,5 +8,12 @@
     },
     "initScreen": {
         "title": "Developer, creator and passionate about innovation"
+    },
+    "knowledge": {
+        "frontend": "Front-end Developer",
+        "backend": "Back-end Developer",
+        "acquirements": "Knowledges",
+        "database": "Database",
+        "others": "Frameworks and Libs"
     }
 }

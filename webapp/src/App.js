@@ -82,12 +82,18 @@ class App extends Component {
     animateScrollTo(document.querySelector('.projects'), options);
   };
 
+  handleInitialScrollToContact = () => {
+    const options = { speed: 900 };
+    animateScrollTo(document.querySelector('.contact'), options);
+  };
+
   render() {
     return (
       <div>
         <Navbar intlz={intl} onClickAboutMe={this.handleInitialScrollToAboutMe}
           onClickHome={this.handleInitialScrollToHome} changePort={this.changeLangToPortuguese}
-          changeEng={this.changeLangToEnglish} onClickProjects={this.handleInitialScrollToProjects}/>
+          changeEng={this.changeLangToEnglish} onClickProjects={this.handleInitialScrollToProjects}
+          onClickContact={this.handleInitialScrollToContact}/>
         <Home intlz={intl} />
         <Footer />
       </div>
