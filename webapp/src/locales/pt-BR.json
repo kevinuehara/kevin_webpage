@@ -15,5 +15,14 @@
         "acquirements": "Conhecimentos",
         "database": "Banco de dados",
         "others": "Frameworks e Bibliotecas"
+    },
+    "presentation": {
+        "title": "Desenvolvedor e Apaixonado por Criar",
+        "description_ph1": "Olá! Meu nome é Kevin Uehara, sou de São Paulo, Brasil.",
+        "description_ph2": "Atualmente trabalho no CPqD (Centro de Pesquisa e Desenvolvimento em Telecomunicações) como desenvolvedor Full-Stack, atuando no desenvolvimento de aplicações web, API's e integração com serviços de NLP. Adepto à aplicação da metodologia ágil Scrum.",
+        "description_ph3": "Tenho projetos pessoais que viso aplicar meus conhecimentos, criando aplicações e templates inovadores que possam contribuir para as pessoas e para meu crescimento pessoal e profissional ;)",
+        "description_ph4": "Sou um grande entusiasta da tecnologia e busco através dela conectar e promover a associação de questões sociais e ambientais.",
+        "description_ph5": "Formado pelo Colégio Técnico de Campinas - COTUCA em Processamento de Dados em 2016.",
+        "phrase": "Não extingua sua inspiração e sua imaginação; não se torne o escravo do seu modelo."
     }
 }

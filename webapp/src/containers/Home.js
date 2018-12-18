@@ -46,7 +46,7 @@ class Home extends Component {
 }
 
 Home.propTypes = {
-    intlz: PropTypes.func
+    intlz: PropTypes.object
 }
 
 export default Home;

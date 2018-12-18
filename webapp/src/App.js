@@ -27,12 +27,15 @@ class App extends Component {
   }
 
   componentDidMount() {
-
-
     var div = document.getElementById("navbar");
 
+    var screenWidth = window.innerWidth;
+
+    if(screenWidth < 600)
+     div.style.backgroundColor = "#282828";
+
     window.onscroll = () => {
-      if (window.pageYOffset > 190) {
+      if (window.pageYOffset > 80 || screenWidth < 500) {
         div.style.backgroundColor = "#282828";
       } else {
         div.style.backgroundColor = "transparent";

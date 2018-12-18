@@ -6,22 +6,21 @@ const Presentation = ({imgAuthor, ScrollAnimation, intlz}) => {
                             <div className="presentation aboutMe">
                                 <h3 className="title">{intlz.get('navbar.aboutme')}</h3>
                                 <div className="row spacing-box">
-                                    <div className="col-md-3 col-sm-12">
+                                    <div className="col-md-3 offset-md-0 col-sm-7 offset-sm-3 offset-2 spacing-box">
                                         <img src={imgAuthor} alt="Kevin Uehara" className="rounded-circle photo_author" />
                                     </div>
                                     <div className="col-md-8 col-sm-12">
-                                        <p className="simple-text"> Criador, desenvolvedor</p>
+                                        <p className="simple-text">{intlz.get('presentation.title')}</p>
                                         <p className="simple-text">
-                                            Vestibulum cursus eget eros ut euismod. Maecenas condimentum, ligula a tincidunt finibus,
-                                            tortor massa tincidunt magna, ut porta tellus ante sit amet magna. Nam metus nunc, posuere
-                                            eget justo ac, finibus commodo turpis. Nulla facilisi. Etiam et mollis orci. Proin eleifend
-                                            enim lacus, quis varius felis commodo ut. Nam nec felis at nunc gravida lacinia. Curabitur
-                                            non mattis lorem, a tristique mi. Quisque lectus lectus, hendrerit sed ipsum vitae, ullamcorper
-                                            dictum felis. Nulla maximus, augue sed sodales convallis, velit arcu dictum leo, vel pellentesque
-                                            magna purus non lectus. Vestibulum faucibus porta sagittis. Etiam tristique ante in est congue
-                                            volutpat.
-
-                                  </p>
+                                            {intlz.get('presentation.description_ph1')}<br/>
+                                            {intlz.get('presentation.description_ph2')}<br/>
+                                            {intlz.get('presentation.description_ph3')}<br/>
+                                            {intlz.get('presentation.description_ph4')}<br/><br/>
+                                            
+                                            {intlz.get('presentation.description_ph5')}
+                                      </p>
+                                      <p className="phrase">"{intlz.get('presentation.phrase')}"</p>
+                                      <p className="phrase-author">-Vicent van Gogh</p>
                                     </div>
                                 </div>
 
