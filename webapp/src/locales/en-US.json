@@ -14,7 +14,9 @@
         "backend": "Back-end Developer",
         "acquirements": "Knowledges",
         "database": "Database",
-        "others": "Frameworks and Libs"
+        "others": "Frameworks and Libs",
+        "description-frontend": "Experience with web application development, using the latest market languages.",
+        "description-backend": "Experience with back-end development with several languages and tools."
     },
     "presentation": {
         "title": "Developer and Passionate About Creating",
@@ -24,5 +26,12 @@
         "description_ph4": "I'm a big tech enthusiast and seek through it to connect and promote the association of environmental and social issues.",
         "description_ph5": "Formed by the Technical College of Campinas - COTUCA in Data Processing in 2016.",
         "phrase": "Do not quench your inspiration and your imagination; do not become the slave of your model"
-    }
+    },
+    "contact": {
+        "title": "Let's talk!",
+        "description": "If you would like to discuss, ask questions or even create a project, please contact me...."
+    },
+    "rednear-description": "Startup created with the purpose of creating and innovating in technological environment. Our dream is connect more and more people through technology. We believe that the team work, collaboration and the relentless desire to innovate are the keys to the success of any business. Using the latest market technologies of software to create powerfull applications for your business. We love creating ambitious applications and projects for the future Rednear. We are on a journey of innovation and search of knowledge, always relying on self-knowledge and the values ​​that revolve around us all.",
+    "github-description": "I have personal projects in github, where I'm always updating and creating applications for my learning. I am available for any questions or discussions about any projects.",
+    "github-link": "Access my repository :)"
 }

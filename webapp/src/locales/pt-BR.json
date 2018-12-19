@@ -14,7 +14,9 @@
         "backend": "Desenvolvedor Back-end",
         "acquirements": "Conhecimentos",
         "database": "Banco de dados",
-        "others": "Frameworks e Bibliotecas"
+        "others": "Frameworks e Bibliotecas",
+        "description-frontend": "Experiência em desenvolvimento de aplicações web, utiliando-se as recentes linguagens de mercado.",
+        "description-backend": "Experiência em desenvolvimento de back-end com diversas linguagens e ferramentas."
     },
     "presentation": {
         "title": "Desenvolvedor e Apaixonado por Criar",
@@ -24,5 +26,12 @@
         "description_ph4": "Sou um grande entusiasta da tecnologia e busco através dela conectar e promover a associação de questões sociais e ambientais.",
         "description_ph5": "Formado pelo Colégio Técnico de Campinas - COTUCA em Processamento de Dados em 2016.",
         "phrase": "Não extingua sua inspiração e sua imaginação; não se torne o escravo do seu modelo."
-    }
+    },
+    "contact": {
+        "title": "Vamos conversar!",
+        "description": "Caso queira discutir, tirar dúvidas ou até mesmo criar algum projeto entre em contato..."
+    },
+    "rednear-description": "Startup criada com o propósito de criar e inovar no meio tecnólogico. Nosso sonho é conectar cada vez mais as pessoas por meio da tecnologia. Acreditamos que o trabalho em equipe, a colaboração e a incansável vontade de inovar são as chaves para o sucesso de qualquer negócio.\n    Utilizando as mais recentes tecnologias de mercado de software para criar aplicações poderosas para seu negócio. Adoramos criar aplicações e possuímos projetos ambiciosos para o futuro Rednear.\n    Estamos em uma jornada pela inovação e busca pelo conhecimento, apoiando-se sempre no auto-conhecimento e os valores que giram em torno de todos nós.",
+    "github-description": "Possuo projetos pessoais no github, onde sempre estou atualizando e criando aplicações para meu aprendizado. Estou disponível para qualquer dúvida ou discussão sobre algum projeto.",
+    "github-link": "Acesse meu repositório :)"
 }

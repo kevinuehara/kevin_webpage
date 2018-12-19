@@ -22,9 +22,9 @@ const Contact = ({parallaxSrc, intlz, ScrollAnimation}) => {
 
         <div style={parallax} className="parallaxImage">
             <div className="parallax-overlay">
-                <h1 className="text-name-parallax">Nam id pellentesque est</h1>
-                <p className="text-description-parallax">Nulla in lorem fermentum, posuere sem eget, accumsan neque. In molestie magna id nibh ullamcorper, vitae tincidunt velit tempor.
-                In viverra ex id sapien faucibus</p>
+                <h1 className="text-name-parallax">{intlz.get('contact.title')}</h1>
+                <p className="text-description-parallax">{intlz.get('contact.description')}</p>
+                <p className="text-email-parallax">email: uehara.kevin@gmail.com</p>
             </div>
         </div>
     </div>);

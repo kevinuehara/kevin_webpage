@@ -66,6 +66,14 @@
     vertical-align: middle;
 }
 
+.text-email-parallax{
+    padding-top: 1vh;
+    font-size: 25px;
+    color:#fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .parallaxImage{
     margin-top:5%;
 }
@@ -113,4 +121,16 @@
 .phrase-author {
     color:#333333;
     font-size: 18px;
+}
+
+.github-link{
+    text-decoration: none;
+    color:#5f605f;
+    font-size: 18px;
+    transition: font-size 0.7s ease 0s;
+}
+
+.github-link:hover{
+    color:#8f94a0;
+    font-size: 20px;
 }

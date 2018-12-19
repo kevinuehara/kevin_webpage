@@ -4,7 +4,7 @@ import '../css/Navbar.css';
 const Navbar = ({ intlz, onClickAboutMe, onClickHome, changePort, changeEng, onClickProjects, onClickContact}) => {
     return (<div>
         <nav id="navbar" className="navbar fixed-top navbar-expand-lg navbar-dark  navBackground">
-            <a className="navbar-brand" href="http://localhost:3000">Kevin Uehara</a>
+            <a className="navbar-brand" href="https://kevinuehara.netlify.com">Kevin Uehara</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

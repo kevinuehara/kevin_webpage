@@ -33,7 +33,7 @@ const Presentation = ({imgAuthor, ScrollAnimation, intlz}) => {
                                                 </div>
                                                 <center>
                                                     <i className="fa fa-code icon-knowledge"></i>
-                                                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                    <p className="card-text">{intlz.get('knowledge.description-frontend')}</p>
 
                                                     <div className="knowledges">
                                                         <h5 className="title-bold">{intlz.get('knowledge.acquirements')}</h5>
@@ -54,7 +54,7 @@ const Presentation = ({imgAuthor, ScrollAnimation, intlz}) => {
                                                 </div>
                                                 <center>
                                                     <i className="fa fa-cogs icon-knowledge"></i>
-                                                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                    <p className="card-text">{intlz.get('knowledge.description-backend')}</p>
                                                     <div className="knowledges">
                                                         <h5 className="title-bold">{intlz.get('knowledge.acquirements')}</h5>
                                                         <p>Java, NodeJS, GO, C#, PHP</p>
