@@ -37,7 +37,7 @@ const Presentation = ({imgAuthor, ScrollAnimation, intlz}) => {
 
                                                     <div className="knowledges">
                                                         <h5 className="title-bold">{intlz.get('knowledge.acquirements')}</h5>
-                                                        <p>Javascript, ReactJS, HTML, CSS3</p>
+                                                        <p>Javascript, ReactJS, React Native, HTML, CSS3</p>
 
                                                         <h5 className="title-bold">{intlz.get('knowledge.others')}</h5>
                                                         <p>Bootstrap, MaterialUI, Jquery</p>

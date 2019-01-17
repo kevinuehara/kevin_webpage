@@ -11,7 +11,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import '../css/Home.css';
 import "animate.css/animate.min.css";
 
-import Author from '../images/kevin.jpeg';
+import Author from '../images/kevin2.jpeg';
 import ParallaxImage from '../images/parallax1.jpg';
 import Rednear from '../images/rednear.png';
 
