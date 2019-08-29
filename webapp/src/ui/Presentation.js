@@ -13,13 +13,14 @@ const Presentation = ({ imgAuthor, ScrollAnimation, intlz }) => {
                         <p className="simple-text">{intlz.get('presentation.title')}</p>
                         <p className="simple-text">
                             {intlz.get('presentation.description_ph1')}<br />
-                            {intlz.get('presentation.description_ph2')}<br />
+                            {intlz.get('presentation.description_ph2')}<br /><br />
                             {intlz.get('presentation.description_ph3')}<br />
-                            {intlz.get('presentation.description_ph4')}<br /><br />
+                            {intlz.get('presentation.description_ph4')}<br />
+                            {intlz.get('presentation.description_ph5')}<br /><br />
 
                             <ul>
-                                <li>{intlz.get('presentation.description_ph5')}</li>
                                 <li>{intlz.get('presentation.description_ph6')}</li>
+                                <li>{intlz.get('presentation.description_ph7')}</li>
                             </ul>
                         </p>
                         <p className="phrase">"{intlz.get('presentation.phrase')}"</p>
@@ -40,7 +41,7 @@ const Presentation = ({ imgAuthor, ScrollAnimation, intlz }) => {
 
                                     <div className="knowledges">
                                         <h5 className="title-bold">{intlz.get('knowledge.acquirements')}</h5>
-                                        <p>Javascript, Typescript, AngularJS, ReactJS, React Native, HTML, CSS3</p>
+                                        <p>Javascript, Typescript, AngularJS, ReactJS</p>
 
                                         <h5 className="title-bold">{intlz.get('knowledge.others')}</h5>
                                         <p>Bootstrap, MaterialUI, Jquery</p>
@@ -60,10 +61,16 @@ const Presentation = ({ imgAuthor, ScrollAnimation, intlz }) => {
                                     <p className="card-text">{intlz.get('knowledge.description-backend')}</p>
                                     <div className="knowledges">
                                         <h5 className="title-bold">{intlz.get('knowledge.acquirements')}</h5>
-                                        <p>Java, NodeJS, GO, C#, PHP</p>
+                                        <p>Java, NodeJS, Python, GO</p>
 
                                         <h5 className="title-bold">{intlz.get('knowledge.database')}</h5>
                                         <p>Cassandra, Redis, MongoDB, ElasticSearch, PostgreSQL, SQLServer, MySQL</p>
+
+                                        <h5 className="title-bold">Mobile</h5>
+                                        <p>React Native</p>
+
+                                        <h5 className="title-bold">{intlz.get('knowledge.another')}</h5>
+                                        <p>Apache Spark, Apache Kafka, Firebase Plataform</p>
                                     </div>
                                 </center>
                             </div>

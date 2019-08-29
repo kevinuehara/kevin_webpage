@@ -11,7 +11,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import '../css/Home.css';
 import "animate.css/animate.min.css";
 
-import Author from '../images/kevin2.jpeg';
+import Author from '../images/kevin.jpeg';
+import DojotLogo from '../images/dojot-logo.png'
 import ParallaxImage from '../images/parallax1.jpg';
 import Rednear from '../images/rednear.png';
 
@@ -35,7 +36,7 @@ class Home extends Component {
                 <div className="col-12">
                     <div className="container-fluid">
                         <Presentation imgAuthor={Author} ScrollAnimation={ScrollAnimation} intlz={this.props.intlz}/>
-                        <Projects srcImage={Rednear} ScrollAnimation={ScrollAnimation} intlz={this.props.intlz}/>
+                        <Projects srcImageKevin={Rednear} srcImageDojot={DojotLogo} ScrollAnimation={ScrollAnimation} intlz={this.props.intlz}/>
                         <Contact parallaxSrc={ParallaxImage} ScrollAnimation={ScrollAnimation} intlz={this.props.intlz}/>
                     </div>
                 </div>

@@ -123,14 +123,19 @@
     font-size: 18px;
 }
 
-.github-link{
+.link{
     text-decoration: none;
     color:#5f605f;
     font-size: 18px;
     transition: font-size 0.7s ease 0s;
 }
 
-.github-link:hover{
+.link:hover{
     color:#8f94a0;
     font-size: 20px;
+}
+
+.dojot-img {
+    width: 50%;
+    margin-top: 10%;
 }

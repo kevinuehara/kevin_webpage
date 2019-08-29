@@ -15,6 +15,7 @@
         "acquirements": "Knowledges",
         "database": "Database",
         "others": "Frameworks and Libs",
+        "another": "Anothers",
         "description-frontend": "Experience with web application development, using the latest market languages.",
         "description-backend": "Experience with back-end development with several languages and tools."
     },
@@ -22,10 +23,11 @@
         "title": "Developer and Passionate About Creating",
         "description_ph1": "Hi! My name is Kevin Uehara, I'm from São Paulo, Brazil.",
         "description_ph2": "I'm currently working on CPqD (Center for Research and Development in Telecommunications) as an Full-Stack developer, acting as an web developer, API's and integrations with NLP services. Adept at applying the agile Scrum methodology.",
-        "description_ph3": "I have personal projects that aim to apply my knowledges, creating innovative applications and templates that can contribute to people and to my personal and professional growth ;)",
-        "description_ph4": "I'm a big tech enthusiast and seek through it to connect and promote the association of environmental and social issues.",
-        "description_ph5": "Formed by the Technical College of Campinas - COTUCA in Data Processing in 2016.",
-        "description_ph6": "I am currently undertaking a degree in Technology in Analysis and Systems Development - UNICAMP",
+        "description_ph3": "I participated in the development of the Multichannel Virtual Assistance project that uses resources to automate customer service in text and voice channels. It operates in the dojot project, being an open source platform focused on developing solutions in the IoT ecosystem.",
+        "description_ph4": "I have personal projects that aim to apply my knowledges, creating innovative applications and templates that can contribute to people and to my personal and professional growth ;)",
+        "description_ph5": "I'm a big tech enthusiast and seek through it to connect and promote the association of environmental and social issues.",
+        "description_ph6": "Formed by the Technical College of Campinas - COTUCA in Data Processing in 2016.",
+        "description_ph7": "I am currently undertaking a degree in Technology in Analysis and Systems Development - UNICAMP",
         "phrase": "Do not quench your inspiration and your imagination; do not become the slave of your model"
     },
     "contact": {
@@ -34,5 +36,7 @@
     },
     "rednear-description": "Startup created with the purpose of creating and innovating in technological environment. Our dream is connect more and more people through technology. We believe that the team work, collaboration and the relentless desire to innovate are the keys to the success of any business. Using the latest market technologies of software to create powerfull applications for your business. We love creating ambitious applications and projects for the future Rednear. We are on a journey of innovation and search of knowledge, always relying on self-knowledge and the values ​​that revolve around us all.",
     "github-description": "I have personal projects in github, where I'm always updating and creating applications for my learning. I am available for any questions or discussions about any projects.",
-    "github-link": "Access my repository :)"
+    "github-link": "Access my repository :)",
+    "dojot-description": "I currently work as Dojot plataform developer by CPqD.\n Dojot was born with the goal of developing and demonstrating technologies for smart cities. Initially focused on the pillars of public safety, urban mobility and health, it intends to build a multidisciplinary ecosystem in these areas. It is a Brazilian platform that came up with an open source proposal, to facilitate the development of solutions and the local content-oriented IoT ecosystem to Brazilian needs.",
+    "dojot-link": "Access the Dojot Plataform!"
 }

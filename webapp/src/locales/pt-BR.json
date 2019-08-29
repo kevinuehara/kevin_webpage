@@ -15,6 +15,7 @@
         "acquirements": "Conhecimentos",
         "database": "Banco de dados",
         "others": "Frameworks e Bibliotecas",
+        "another": "Outros",
         "description-frontend": "Experiência em desenvolvimento de aplicações web, utiliando-se as recentes linguagens de mercado.",
         "description-backend": "Experiência em desenvolvimento de back-end com diversas linguagens e ferramentas."
     },
@@ -22,10 +23,11 @@
         "title": "Desenvolvedor e Apaixonado por Criar",
         "description_ph1": "Olá! Meu nome é Kevin Uehara, sou de São Paulo, Brasil.",
         "description_ph2": "Atualmente trabalho no CPqD (Centro de Pesquisa e Desenvolvimento em Telecomunicações) como desenvolvedor Full-Stack, atuando no desenvolvimento de aplicações web, API's e integração com serviços de NLP. Adepto à aplicação da metodologia ágil Scrum.",
-        "description_ph3": "Tenho projetos pessoais que viso aplicar meus conhecimentos, criando aplicações e templates inovadores que possam contribuir para as pessoas e para meu crescimento pessoal e profissional ;)",
-        "description_ph4": "Sou um grande entusiasta da tecnologia e busco através dela conectar e promover a associação de questões sociais e ambientais.",
-        "description_ph5": "Formado pelo Colégio Técnico de Campinas - COTUCA em Processamento de Dados em 2016.",
-        "description_ph6": "Realizando graduação em Tecnologia em Análise e Desenvolvimento de Sistemas - UNICAMP",
+        "description_ph3": "Participou do desenvolvimento do projeto de Assistente Virtual Multicanal que utiliza recursos de inteligência artificial para automatizar o atendimento ao cliente em canais de texto e voz. Atua no projeto dojot, sendo uma plataforma open source com foco em desenvolvimento de soluções no ecossistema IoT.",
+        "description_ph4": "Tenho projetos pessoais que viso aplicar meus conhecimentos, criando aplicações e templates inovadores que possam contribuir para as pessoas e para meu crescimento pessoal e profissional ;)",
+        "description_ph5": "Sou um grande entusiasta da tecnologia e busco através dela conectar e promover a associação de questões sociais e ambientais.",
+        "description_ph6": "Formado pelo Colégio Técnico de Campinas - COTUCA em Processamento de Dados em 2016.",
+        "description_ph7": "Realizando graduação em Tecnologia em Análise e Desenvolvimento de Sistemas - UNICAMP",
         "phrase": "Não extingua sua inspiração e sua imaginação; não se torne o escravo do seu modelo."
     },
     "contact": {
@@ -34,5 +36,7 @@
     },
     "rednear-description": "Startup criada com o propósito de criar e inovar no meio tecnólogico. Nosso sonho é conectar cada vez mais as pessoas por meio da tecnologia. Acreditamos que o trabalho em equipe, a colaboração e a incansável vontade de inovar são as chaves para o sucesso de qualquer negócio.\n    Utilizando as mais recentes tecnologias de mercado de software para criar aplicações poderosas para seu negócio. Adoramos criar aplicações e possuímos projetos ambiciosos para o futuro Rednear.\n    Estamos em uma jornada pela inovação e busca pelo conhecimento, apoiando-se sempre no auto-conhecimento e os valores que giram em torno de todos nós.",
     "github-description": "Possuo projetos pessoais no github, onde sempre estou atualizando e criando aplicações para meu aprendizado. Estou disponível para qualquer dúvida ou discussão sobre algum projeto.",
-    "github-link": "Acesse meu repositório :)"
+    "github-link": "Acesse meu repositório :)",
+    "dojot-description": "Atualmente atuo como contribuidor da plataforma Dojot como desenvolvedor pelo CPqD. \nA dojot nasceu com o objetivo de desenvolver e demonstrar tecnologias para as cidades inteligentes. Inicialmente com foco nos pilares de segurança pública, mobilidade urbana e saúde, pretende construir um ecossistema multidisciplinar nessas áreas.\n É uma plataforma brasileira que surgiu com uma proposta open source, para facilitar o desenvolvimento de soluções e o ecossistema IoT com conteúdo local voltado às necessidades brasileiras.",
+    "dojot-link": "Acesse a plataforma Dojot!"
 }
